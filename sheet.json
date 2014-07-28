@@ -1,6 +1,8 @@
 {
     "html": "D6StarWars.html",
     "css": "D6StarWarsStyle.css",
-    "authors": "Timothy O'Driscoll, and others",
+    "authors": "Timothy O'Driscoll",
+    "roll20userid": "555352",
     "preview": "D6StarWarsPreview.png",
-    "instructions": " "
+    "instructions": "This is for D6 Star Wars not D20!  List your dice and pips next to the appropriate skill. Skills override abilities.  3pips equal anoth die. Remember that this game used  The text areas are expandable for additional info.  "
+}
