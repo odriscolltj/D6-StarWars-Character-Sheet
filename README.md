@@ -36,7 +36,8 @@ below you will find all of the relevant info for alterin the sheet
                                 Credits:
                                     <input type="number" name="attrcredits" />
                         Physical Description / Notes:
-                            <textarea name="attrgeartext"></textarea>
+                            <textarea name="attr_physicaldescription"></textarea>
+                            <textarea name="attr_notes"></textarea>
 
                         DEXTERITY:
                             <input type="text" name="attrdexterity" />
