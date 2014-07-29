@@ -1,318 +1,372 @@
-
-    <!-- Sheet Header -->
+<!-- Sheet Header -->
 <div>
     <div>
-                 <p>
-                      <img src="http://www.hkgsi.com/test/crystal.dice.red.big.jpg" style="max-height: 100px;" />
-                      <img src="http://www.milanricoul.com/starwars/img/starwars-logo.png" style="max-height: 100px;" />
-               </p>
-    </div>
-    <div>Player:
-        <input type="text" name="attr_player" />
-         <h3>Character Type:<input type="text" name="attr_charactertype" />Name:<input type="text" name="attr_charactername" />
-        </h3>
+        <p style="text-align: Center;">
+            <img src="http://www.hkgsi.com/test/crystal.dice.red.big.jpg" style="max-height: 50px;" />
+            <img src="http://www.milanricoul.com/starwars/img/starwars-logo.png" style="max-height: 50px;" />
+            <img src="http://www.hkgsi.com/test/crystal.dice.blue.big.jpg" style="max-height: 50px;" />
+        </p>
+        <div>
+            <div>
+                <table>
+                    <tr>
+                        <td>Player:
+                            <input type="text" name="attr_player" />
+                        </td>
+                        <td>Character Type:
+                            <input type="text" name="attr_charactertype" />
+                        </td>
+                        <td>
+                             <h3>Name:<input type="text" name="attr_charactername" /> </h3>
 
-        <div>
-            <label>Age</label>
-            <input type="text" name="attr_age" />
-            <label>Height</label>
-            <input type="text" name="attr_height" />
-        </div>
-        <div>
-            <label>Sex</label>
-            <input type="text" name="attr_sex" />
-            <label>Weight</label>
-            <input type="text" name="attr_weight" />
-        </div>
-        <div>_________________________________________________________</div>
-        <div>
-            <label>Credits:
-                <input type="number" name="attr_credits" />Physical Description / Notes:</label>
-            <div>
-                <textarea name="attr_geartext"></textarea>
-            </div>
-        </div>
-        <!-- ------------- -->
-        <div>_________________________________________________________</div>
-        <div>
-            <bold>DEXTERITY</bold>
-            <input type="text" name="attr_dexterity" />
-            <div>
+                        </td>
+                    </tr>
+                </table>
                 <div>
-                    <input type="text" name="attr_blaster" />
-                    <label>Blaster</label>
+                    <table>
+                        <tr>
+                            <td>
+                                <div>Age:
+                                    <input type="text" name="attr_age" />
+                                </div>
+                                <div>Height:
+                                    <input type="text" name="attr_height" />
+                                </div>
+                            </td>
+                            <td>
+                                <div>Sex:
+                                    <input type="text" name="attr_sex" />
+                                </div>
+                                <div>Weight:
+                                    <input type="text" name="attr_weight" />
+                                </div>
+                            </td>
+                            <td>
+                                <div>Race:
+                                    <input type="text" name="attr_race" />
+                                </div>
+                                <div>Credits:
+                                    <input type="number" name="attr_credits" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
+                <div>_________________________________________________________</div>
+                <div>Physical Description / Notes:</div>
                 <div>
-                    <input type="text" name="attr_brawlingparry" />
-                    <label>Brawling Parry</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_dodge" />
-                    <label>Dodge</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_grenade" />
-                    <label>Grenade</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_heavyweapons" />
-                    <label>Heavy Weapons</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_meleeparry" />
-                    <label>Melee Parry</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_melee" />
-                    <label>Melee</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_dexblank1" />
-                    <label>---</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_dexblank2" />
-                    <label>---</label>
+                    <textarea name="attr_geartext"></textarea>
                 </div>
             </div>
-        </div>
-        <!-- Knowledge -->
-        <div>
-            <label>KNOWLEDGE</label>
-            <input type="text" name="attr_knowledge" />
-            <div>
-                <div>
-                    <input type="text" name="attr_alienraces" />
-                    <label>Alien Races</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_bureaucracy" />
-                    <label>Bureaucracy</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_cultures" />
-                    <label>Cultures</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_languages" />
-                    <label>Languages</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_planetarysystems" />
-                    <label>Planetary Systems</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_streetwise" />
-                    <label>Streetwise</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_survival" />
-                    <label>Survival</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_technology" />
-                    <label>Technology</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_knowblank1" />
-                    <label>---</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_knowblank2" />
-                    <label>---</label>
-                </div>
-            </div>
-        </div>
-        <!-- Mechanical -->
-        <div>
-            <bold>MECHANICAL</bold>
-            <input type="text" name="attr_mechanical" />
-            <div>
-                <div>
-                    <input type="text" name="attr_astrogation" />
-                    <label>Astrogation</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_beastriding" />
-                    <label>Beast Riding</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_repulsorliftop" />
-                    <label>Repulsorlift Op</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_starshipgunnery" />
-                    <label>Starship Gunnery</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_starshippiloting" />
-                    <label>Starship Piloting</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_starshipshields" />
-                    <label>Starship Shields</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_mechblank1" />
-                    <label>---</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_mechblank2" />
-                    <label>---</label>
-                </div>
-            </div>
-        </div>
-        <!-- Perception -->
-        <div>
-            <bold>PERCEPTION</bold>
-            <input type="text" name="attr_perception" />
-            <div>
-                <div>
-                    <input type="text" name="attr_bargain" />
-                    <label>Bargain</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_command" />
-                    <label>Command</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_con" />
-                    <label>Con</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_gambling" />
-                    <label>Gambling</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_hidesneak" />
-                    <label>Hide/Sneak</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_search" />
-                    <label>Search</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_perblank1" />
-                    <label>---</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_perblank2" />
-                    <label>---</label>
-                </div>
-            </div>
-        </div>
-        <!-- Strength -->
-        <div>
-            <bold>STRENGTH</bold>
-            <input type="text" name="attr_strength" />
-            <div>
-                <div>
-                    <input type="text" name="attr_brawling" />
-                    <label>Brawling</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_climingjumping" />
-                    <label>Climbing/Jumping</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_lifting" />
-                    <label>Lifting</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_stamina" />
-                    <label>Stamina</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_swimming" />
-                    <label>Swimming</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_mechblank1" />
-                    <label>---</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_mechblank2" />
-                    <label>---</label>
-                </div>
-            </div>
-        </div>
-        <!-- Technical -->
-        <div>
-            <bold>TECHNICAL</bold>
-            <input type="text" name="attr_technical" />
-            <div>
-                <div>
-                    <input type="text" name="attr_compprogrepair" />
-                    <label>Comp Prog/Repair</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_demolition" />
-                    <label>Demolition</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_droidprogrepair" />
-                    <label>Droid Prog/Repair</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_medicine" />
-                    <label>Medicine</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_repulsorliftrepair" />
-                    <label>Repulsorlift Repair</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_security" />
-                    <label>Security</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_starship Repair" />
-                    <label>Starship Repair</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_techblank1" />
-                    <label>---</label>
-                </div>
-                <div>
-                    <input type="text" name="attr_techblank2" />
-                    <label>---</label>
-                </div>
-            </div>
-            <!-- Force Powers -->
+            <!-- ------------- -->
             <div>_________________________________________________________</div>
+            <table>
+                <tr>
+                    <td>
+                        <div></div>
+                        <label>DEXTERITY:</label>
+                        <input type="text" name="attr_dexterity" />
+                        <div>
+                            <div>
+                                <input type="text" name="attr_blaster" />
+                                <label>Blaster</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_brawlingparry" />
+                                <label>Brawling Parry</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_dodge" />
+                                <label>Dodge</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_grenade" />
+                                <label>Grenade</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_heavyweapons" />
+                                <label>Heavy Weapons</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_meleeparry" />
+                                <label>Melee Parry</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_melee" />
+                                <label>Melee</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_dexblank1" />
+                                <label>---</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_dexblank2" />
+                                <label>---</label>
+                            </div>
+                        </div>
+                        <!-- Mechanical -->
+                        <div>
+                            <label>MECHANICAL</label>
+                            <input type="text" name="attr_mechanical" />
+                            <div>
+                                <div>
+                                    <input type="text" name="attr_astrogation" />
+                                    <label>Astrogation</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_beastriding" />
+                                    <label>Beast Riding</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_repulsorliftop" />
+                                    <label>Repulsorlift Op</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_starshipgunnery" />
+                                    <label>Starship Gunnery</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_starshippiloting" />
+                                    <label>Starship Piloting</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_starshipshields" />
+                                    <label>Starship Shields</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_mechblank1" />
+                                    <label>---</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_mechblank2" />
+                                    <label>---</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Technical -->
+                        <div>
+                            <bold>TECHNICAL</bold>
+                            <input type="text" name="attr_technical" />
+                            <div>
+                                <div>
+                                    <input type="text" name="attr_compprogrepair" />
+                                    <label>Comp Prog/Repair</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_demolition" />
+                                    <label>Demolition</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_droidprogrepair" />
+                                    <label>Droid Prog/Repair</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_medicine" />
+                                    <label>Medicine</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_repulsorliftrepair" />
+                                    <label>Repulsorlift Repair</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_security" />
+                                    <label>Security</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_starship Repair" />
+                                    <label>Starship Repair</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_techblank1" />
+                                    <label>---</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_techblank2" />
+                                    <label>---</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- Perception -->
+                        <label>PERCEPTION:</label>
+                        <input type="text" name="attr_perception" />
+                        <div>
+                            <div>
+                                <input type="text" name="attr_bargain" />
+                                <label>Bargain</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_command" />
+                                <label>Command</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_con" />
+                                <label>Con</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_gambling" />
+                                <label>Gambling</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_hidesneak" />
+                                <label>Hide/Sneak</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_search" />
+                                <label>Search</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_perblank1" />
+                                <label>---</label>
+                            </div>
+                            <div>
+                                <input type="text" name="attr_perblank2" />
+                                <label>---</label>
+                            </div>
+                        </div>
+                        <!-- Strength -->
+                        <div>
+                            <bold>STRENGTH</bold>
+                            <input type="text" name="attr_strength" />
+                            <div>
+                                <div>
+                                    <input type="text" name="attr_brawling" />
+                                    <label>Brawling</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_climingjumping" />
+                                    <label>Climbing/Jumping</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_lifting" />
+                                    <label>Lifting</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_stamina" />
+                                    <label>Stamina</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_swimming" />
+                                    <label>Swimming</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_strengthblank1" />
+                                    <label>---</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="attr_strengthblank2" />
+                                    <label>---</label>
+                                </div>
+                            </div>
+                            <!-- Knowledge -->
+                            <div>
+                                <label>KNOWLEDGE:</label>
+                                <input type="text" name="attr_knowledge" />
+                                <div>
+                                    <div>
+                                        <input type="text" name="attr_alienraces" />
+                                        <label>Alien Races</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_bureaucracy" />
+                                        <label>Bureaucracy</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_cultures" />
+                                        <label>Cultures</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_languages" />
+                                        <label>Languages</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_planetarysystems" />
+                                        <label>Planetary Systems</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_streetwise" />
+                                        <label>Streetwise</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_survival" />
+                                        <label>Survival</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_technology" />
+                                        <label>Technology</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_knowblank1" />
+                                        <label>---</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_knowblank2" />
+                                        <label>---</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="attr_knowblank3" />
+                                        <label>---</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <!-- Force Powers -->
             <div>
-                <label>FORCE POWERS</label>
+                <div>_________________________________________________________</div>
                 <div>
-                    <input type="text" name="attr_control" />
-                    <bold>CONTROL</bold>
-                    <div></div>
-                    <input type="text" name="attr_sense" />
-                    <bold>SENSE</bold>
-                    <div></div>
-                    <input type="text" name="attr_alter" />
-                    <bold>ALTER</bold>
+                    <label>FORCE POWERS</label>
+                    <div>
+                        <input type="text" name="attr_control" />
+                        <bold>CONTROL</bold>
+                        <div></div>
+                        <input type="text" name="attr_sense" />
+                        <bold>SENSE</bold>
+                        <div></div>
+                        <input type="text" name="attr_alter" />
+                        <bold>ALTER</bold>
+                    </div>
                 </div>
-            </div>
-            <!-- Point Trackers -->
-            <div>
-                 <h3>Force Points</h3> 
+                <!-- Point Trackers -->
                 <div>
-                    <input type="number" name="attr_forcepoint" />
-                     <h3>Dark Side Points</h3>
+                    <table>
+                        <tr>
+                            <td>
+                                 <h3>Force Points</h3>
 
-                    <div>
-                        <input type="number" name="attr_darkside" />
-                    </div>
-                    <div></div>
+                                <div>
+                                    <input type="number" name="attr_forcepoint" />
+                                </div>
+                            </td>
+                            <td>
+                                 <h3>Dark Side Points</h3>
+
+                                <div>
+                                    <input type="number" name="attr_darkside" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                     <div>_________________________________________________________</div>
-                    <div>
-                         <h3>Wound Status</h3>
+                    <table>
+                        <tr>
+                            <td>
+                                <div>
+                                     <h3>Wound Status</h3>
 
-                        <input type="number" name="attr_woundstatus" />
-                         <h3>Skill Points</h3>
+                                    <input type="number" name="attr_woundstatus" />
+                                </div>
+                            </td>
+                            <td>
+                                 <h3>Skill Points</h3>
 
-                        <input type="number" name="attr_skillpoints" />
-                    </div>
+                                <input type="number" name="attr_skillpoints" />
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <!-- ------------- -->
                 <div>_________________________________________________________</div>
@@ -320,19 +374,19 @@
                     <div>
                         <bold>Background</bold>
                         <div>
-                            <textarea name="attr_geartext"></textarea>
+                            <textarea name="attr_background"></textarea>
                         </div>
                         <bold>Personality</bold>
                         <div>
-                            <textarea name="attr_geartext"></textarea>
+                            <textarea name="attr_personality"></textarea>
                         </div>
                         <bold>Some quotes:</bold>
                         <div>
-                            <textarea name="attr_geartext"></textarea>
+                            <textarea name="attr_quotes"></textarea>
                         </div>
                         <bold>Connections to other characters</bold>
                         <div>
-                            <textarea name="attr_geartext"></textarea>
+                            <textarea name="attr_connections"></textarea>
                         </div>
                     </div>
                 </div>
@@ -341,7 +395,10 @@
                     <div>
                         <bold>Equipment</bold>
                         <div></div>
-                        <textarea name="attr_geartext"></textarea>
+                        <textarea name="attr_geartext1"></textarea>
+                        <textarea name="attr_geartext2"></textarea>
+                        <textarea name="attr_geartext3"></textarea>
+                        <textarea name="attr_geartext4"></textarea>
                     </div>
                 </div>
                 <div>_________________________________________________________</div>
@@ -349,10 +406,15 @@
                     <div>
                         <bold>Vehicles</bold>
                         <div></div>
-                        <textarea name="attr_vehicletext"></textarea>
+                        <textarea name="attr_vehicletext1"></textarea>
+                        <textarea name="attr_vehicletext2"></textarea>
+                        <textarea name="attr_vehicletext3"></textarea>
                     </div>
                 </div>
             </div>
+            <p style="text-align: Center;">
+                <img src="http://www.milanricoul.com/starwars/img/starwars-logo.png" style="max-height: 100px;" />
+            </p>
         </div>
     </div>
 </div>
