@@ -9,9 +9,9 @@ List your dice and pips next to the appropriate skills -  3pips equal another di
 
 The text areas are expandable for additional info. 
 
+.
 
-
-
+.
 
 
 I'm sure that a skilled coder could do this far better, but This is my first attempt ever.
