@@ -14,7 +14,7 @@ The text areas are expandable for additional info.
 
 
 
-below you will find all of the relevant info for alterin the sheet
+below you will find all of the relevant info for altering the sheet
 
                         Player:
                             <input type="text" name="attrplayer" />
