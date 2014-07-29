@@ -13,7 +13,7 @@ The text areas are expandable for additional info.
 
 
 
-
+I'm sure that a skilled coder could do this far better, but This is my first attempt ever.
 below you will find all of the relevant info for altering the sheet
 
                         Player:
