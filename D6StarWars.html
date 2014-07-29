@@ -6,11 +6,11 @@
             <img src="http://www.milanricoul.com/starwars/img/starwars-logo.png" style="max-height: 50px;" />
             <img src="http://www.hkgsi.com/test/crystal.dice.blue.big.jpg" style="max-height: 50px;" />
         </p>
-        <div>
+        <div style="text-align: Center;">
             <div>
                 <table>
                     <tr>
-                        <td>Player:
+                        <td style="text-align: Center;">Player:
                             <input type="text" name="attr_player" />
                         </td>
                         <td>Character Type:
@@ -25,7 +25,7 @@
                 <div>
                     <table>
                         <tr>
-                            <td>
+                            <td style="text-align: right;">
                                 <div>Age:
                                     <input type="text" name="attr_age" />
                                 </div>
@@ -33,7 +33,7 @@
                                     <input type="text" name="attr_height" />
                                 </div>
                             </td>
-                            <td>
+                            <td style="text-align: right;">
                                 <div>Sex:
                                     <input type="text" name="attr_sex" />
                                 </div>
@@ -41,7 +41,7 @@
                                     <input type="text" name="attr_weight" />
                                 </div>
                             </td>
-                            <td>
+                            <td style="text-align: right;">
                                 <div>Race:
                                     <input type="text" name="attr_race" />
                                 </div>
@@ -61,7 +61,7 @@
             <!-- ------------- -->
             <div>_________________________________________________________</div>
             <table>
-                <tr>
+                <tr style="text-align: Left;">
                     <td>
                         <div></div>
                         <label>DEXTERITY:</label>
@@ -317,7 +317,7 @@
             <!-- Force Powers -->
             <div>
                 <div>_________________________________________________________</div>
-                <div>
+                <div style="text-align: Left;">
                     <label>FORCE POWERS</label>
                     <div>
                         <input type="text" name="attr_control" />
@@ -332,7 +332,7 @@
                 </div>
                 <!-- Point Trackers -->
                 <div>
-                    <table>
+                    <table style="text-align: Center;">
                         <tr>
                             <td>
                                  <h3>Force Points</h3>
@@ -351,7 +351,7 @@
                         </tr>
                     </table>
                     <div>_________________________________________________________</div>
-                    <table>
+                    <table style="text-align: Center;">
                         <tr>
                             <td>
                                 <div>
@@ -371,40 +371,58 @@
                 <!-- ------------- -->
                 <div>_________________________________________________________</div>
                 <div>
-                    <div>
-                        <bold>Background</bold>
-                        <div>
-                            <textarea name="attr_background"></textarea>
-                        </div>
-                        <bold>Personality</bold>
-                        <div>
-                            <textarea name="attr_personality"></textarea>
-                        </div>
-                        <bold>Some quotes:</bold>
-                        <div>
-                            <textarea name="attr_quotes"></textarea>
-                        </div>
-                        <bold>Connections to other characters</bold>
-                        <div>
-                            <textarea name="attr_connections"></textarea>
-                        </div>
-                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <label>Background</label>
+                                <div>
+                                    <textarea name="attr_background"></textarea>
+                                </div>
+                                <label>Personality</label>
+                                <div>
+                                    <textarea name="attr_personality"></textarea>
+                                </div>
+                            </td>
+                            <td>
+                                <label>Some quotes:</label>
+                                <div>
+                                    <textarea name="attr_quotes"></textarea>
+                                </div>
+                                <label>Connections to other characters</label>
+                                <div>
+                                    <textarea name="attr_connections"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>_________________________________________________________</div>
+            <div>
+                <div style="text-align: Center;">
+                    <label>Equipment</label>
+                    <div></div>
+                    <table>
+                        <tr>
+                            <td style="text-align: Right;">
+                                <textarea name="attr_geartext1"></textarea>
+                                <textarea name="attr_geartext2"></textarea>
+                            </td>
+                            <td style="text-align: Center;">
+                                <textarea name="attr_geartext3"></textarea>
+                                <textarea name="attr_geartext4"></textarea>
+                            </td>
+                            <td style="text-align: Left;">
+                                <textarea name="attr_geartext5"></textarea>
+                                <textarea name="attr_geartext6"></textarea>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <div>_________________________________________________________</div>
                 <div>
-                    <div>
-                        <bold>Equipment</bold>
-                        <div></div>
-                        <textarea name="attr_geartext1"></textarea>
-                        <textarea name="attr_geartext2"></textarea>
-                        <textarea name="attr_geartext3"></textarea>
-                        <textarea name="attr_geartext4"></textarea>
-                    </div>
-                </div>
-                <div>_________________________________________________________</div>
-                <div>
-                    <div>
-                        <bold>Vehicles</bold>
+                    <div style="text-align: Center;">
+                        <label>Vehicles</label>
                         <div></div>
                         <textarea name="attr_vehicletext1"></textarea>
                         <textarea name="attr_vehicletext2"></textarea>
