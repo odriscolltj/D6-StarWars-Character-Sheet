@@ -35,15 +35,12 @@ below you will find all of the relevant info for alterin the sheet
                                     <input type="text" name="attrrace" />
                                 Credits:
                                     <input type="number" name="attrcredits" />
-                                
-                   
-                Physical Description / Notes:
-                     <textarea name="attrgeartext"></textarea>
+                        Physical Description / Notes:
+                            <textarea name="attrgeartext"></textarea>
 
-                
                         DEXTERITY:
                             <input type="text" name="attrdexterity" />
-                        
+
                                 <input type="text" name="attrblaster" />         Blaster
                                 <input type="text" name="attrbrawlingparry" />   Brawling Parry
                                 <input type="text" name="attrdodge" />           Dodge
@@ -53,8 +50,7 @@ below you will find all of the relevant info for alterin the sheet
                                 <input type="text" name="attrmelee" />           Melee
                                 <input type="text" name="attrdexblank1" />       ---
                                 <input type="text" name="attrdexblank2" />       ---
-                    
-                        
+
                         MECHANICAL
                             <input type="text" name="attrmechanical" />
                             
@@ -66,7 +62,6 @@ below you will find all of the relevant info for alterin the sheet
                                  <input type="text" name="attrstarshipshields" />    Starship Shields
                                  <input type="text" name="attrmechblank1" />         ---
                                  <input type="text" name="attrmechblank2" />         ---
-                        
                         
                         TECHNICAL
                             <input type="text" name="attrtechnical" />
@@ -81,7 +76,6 @@ below you will find all of the relevant info for alterin the sheet
                                   <input type="text" name="attrtechblank1" />           ---
                                   <input type="text" name="attrtechblank2" />           ---
                   
-
                         PERCEPTION:
                             <input type="text" name="attrperception" />
                         
@@ -93,7 +87,6 @@ below you will find all of the relevant info for alterin the sheet
                                  <input type="text" name="attrsearch" />       Search
                                  <input type="text" name="attrperblank1" />    ---
                                  <input type="text" name="attrperblank2" />    ---
-                            
                         
                         STRENGTH
                             <input type="text" name="attrstrength" />
@@ -152,7 +145,6 @@ below you will find all of the relevant info for alterin the sheet
                         
                         Connections to other characters
                             <textarea name="attrconnections"></textarea>
-                        
                         
                         Equipment
                             <textarea name="attrgeartext1"></textarea>
